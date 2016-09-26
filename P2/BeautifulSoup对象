@@ -1,0 +1,11 @@
+BeautifulSoup 对象：
+之前例子中bsObj
+
+标签Tag对象：
+通过find findAll，或者子标签获取的一列对象或单个对象bsObj.div.h1
+
+NavigableString 对象：
+用来表示标签里的文字，而不是标签
+
+comment 对象:
+查找Html文档中的注释
