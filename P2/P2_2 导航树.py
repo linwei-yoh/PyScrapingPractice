@@ -16,6 +16,7 @@ for child in bsObj.find("table",{"id":"giftList"}).children:
     count += 1
 
 print("--------------------------------------------------------------")
+#兄弟标签
 #找到table标签的第一个tr标签，用next_sibling显示它所有的兄弟标签，不显示他本身
 count = 0
 for sibling in bsObj.find("table",{"id":"giftList"}).tr.next_siblings:
@@ -24,3 +25,6 @@ for sibling in bsObj.find("table",{"id":"giftList"}).tr.next_siblings:
     count += 1
 
 print("--------------------------------------------------------------")
+#父标签
+#找到img1的标签，再找到其父标签，再找到其父标签的前一个兄弟标签
+print(bsObj.find("img",{"src":"../img/gifts/img1.jpg"}).parent.previous_sibling.get_text())

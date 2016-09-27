@@ -1,0 +1,4 @@
+
+获得标签属性 需要先find/findAll 标签 例 myTag
+然后 myTag.attrs
+     myTag.attrs['src']
