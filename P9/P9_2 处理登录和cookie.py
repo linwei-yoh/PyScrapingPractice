@@ -40,4 +40,4 @@ def base_access_auth():
 
 
 if __name__ == '__main__':
-    base_access_auth()
+    requestwithcookie()

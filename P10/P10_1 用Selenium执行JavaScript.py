@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Selenium的选择器查找方式和BeautifulSoup不同，更直接
 
 objUrl = "http://pythonscraping.com/pages/javascript/ajaxDemo.html"
-driver = webdriver.PhantomJS(executable_path="G:/python/phantomjs-2.1.1-windows/bin/phantomjs")
+driver = webdriver.PhantomJS(executable_path="G:/python/phantomjs/bin/phantomjs")
 
 
 def javascript_test1():
