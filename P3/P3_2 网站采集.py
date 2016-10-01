@@ -8,7 +8,7 @@ import re
 # 页面set 去重
 pages = set()
 
-# 此方法采用了递归 太过危险 小心使用
+# 此方法采用了递归 python对递归有数量限制记得是1000 小心使用
 def getLinks(pageUrl):
     global pages
     r = requests.get(pageUrl)
